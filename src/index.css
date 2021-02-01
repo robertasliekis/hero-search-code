@@ -32,6 +32,16 @@ body {
   width: 100%;
 }
 
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 .website-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -841,6 +851,13 @@ body {
     top: 4rem;
     width: 100%;
     height: calc(100% - 4rem);
+    padding: 1rem;
+  }
+  .side-menu h1 {
+    font-size: 1.7rem;
+  }
+  .side-menu .category-list .list-item {
+    font-size: 1.1rem;
   }
   .hero-wrapper {
     -webkit-box-align: center;
@@ -936,7 +953,7 @@ body {
     padding: 1rem;
   }
   .side-menu .category-name {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .side-menu .category-list .list-item {
     font-size: 1rem;

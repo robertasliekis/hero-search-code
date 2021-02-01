@@ -32,6 +32,17 @@ body {
   width: 100%;
 }
 
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 @mixin dislayFlex {
   display: flex;
   justify-content: center;
@@ -545,6 +556,15 @@ body {
     top: 4rem;
     width: 100%;
     height: calc(100% - 4rem);
+    padding: 1rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    .category-list {
+      .list-item {
+        font-size: 1.1rem;
+      }
+    }
   }
 
   .hero-wrapper {
@@ -616,7 +636,7 @@ body {
   .side-menu {
     padding: 1rem;
     .category-name {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
     .category-list {
       .list-item {
